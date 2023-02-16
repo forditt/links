@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <title>cmd</title>
+<body style="background-color:rgb(0, 0, 0)">
+    <style>
+        div.a
+        {
+            text-align: left;
+            font-family: consolas; 
+            font-size: small;
+            color:rgb(255, 255, 255);
+            line-height:5px;
+        }
+        a:link, a:visited 
+        {
+            color: rgb(0, 102, 204);
+        }
+        #cursor{
+          font-size: 14px;
+      }
+
+    </style> 
+    <script>
+        var cursor = true;
+        var speed = 600;        setInterval(() => {
+          if(cursor) {
+            document.getElementById('cursor').style.opacity = 0;
+            cursor = false;
+          }else {
+            document.getElementById('cursor').style.opacity = 1;
+            cursor = true;
+          }
+        }, speed);
+    </script>  
+    <div class="a"> 
+        <p>Microsoft Windows [Version 10.0.22621.1265]</p>
+        <p>(c) Microsoft Corporation. All rights reserved.</p>
+        <h6></h6>
+        <p>C:\links\>dir</p>
+        <p>&nbspVolume in drive C is Disc?</p>
+        <p>&nbspVolume Serial Number is 7910-95A0</p>
+        <h6></h6>
+        <p>&nbspDirectory of C:\links\</p>
+        <h6></h6>
+        <p>13.02.2023 &nbsp21:26 &nbsp&nbsp "DIR" &nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://t.me/forditt" target="_blank">Telegram</a></p>
+        <p>13.02.2023 &nbsp21:26 &nbsp&nbsp "DIR" &nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://discord.com/users/454702483122552832/" target="_blank">Discord</a></p>
+        <p>13.02.2023 &nbsp21:26 &nbsp&nbsp "DIR" &nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://steamcommunity.com/id/forditt/" target="_blank">Steam</a></p>
+        <p>13.02.2023 &nbsp21:26 &nbsp&nbsp "DIR" &nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://www.twitch.tv/forditt/" target="_blank">Twitch</a></p>
+        <p>13.02.2023 &nbsp21:26 &nbsp&nbsp "DIR" &nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://github.com/forditt" target="_blank">GitHub</a></p>
+        <p>13.02.2023 &nbsp21:26 &nbsp&nbsp "DIR" &nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://www.reddit.com/user/forditt_" target="_blank">Reddit</a></p>
+        <p>13.02.2023 &nbsp21:26 &nbsp&nbsp "DIR" &nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://uk.namemc.com/profile/forditt" target="_blank">NameMC</a></p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 0 File(s) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 0 bytes</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 7 Dir(s) &nbsp28 315 406 336 bytes free</p>
+        <h6></h6>
+        <p>&nbspC:\Users\forditt\AppData\Roaming\forditt_links\>Who_am_I?</p>
+        <p>&nbsp░█▀▀░▄▀▀▄░█▀▀▄░█▀▄░░▀░░▀█▀░▀█▀</p>
+        <p>&nbsp░█▀░░█░░█░█▄▄▀░█░█░░█▀░░█░░░█░</p>
+        <p>&nbsp░▀░░░░▀▀░░▀░▀▀░▀▀░░▀▀▀░░▀░░░▀░</p>
+        <h6></h6>
+        <p>&nbspC:\Users\forditt\AppData\Roaming\forditt_links\><span id="cursor">|</span></p>
+    </div>
+</body>
