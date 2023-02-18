@@ -3,9 +3,9 @@ body
   background-color:rgb(0, 0, 0)
 }
 
-.wrap {max-width: 1200px;} 
+div.wrap {max-width: 1200px;} 
 
-.box
+div.box
 {
   width: 700px;
   border: 1px dashed rgb(255, 255, 255);
@@ -15,7 +15,7 @@ body
   margin-top: 70px;
 }
 
-.text
+div.text
 {
   font-family: consolas; 
   text-align: left;
@@ -33,3 +33,12 @@ cursor
 {
   font-size: 14px;
 }
+
+/*  
+
+  margin-left: 600px;
+  margin-top: 120px; 
+  text-indent: 40%;
+
+
+*/
