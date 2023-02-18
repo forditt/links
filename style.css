@@ -6,11 +6,9 @@ body
 .box
 {
   border: 1px dashed rgb(255, 255, 255);
-  padding: 50px;
-  width:50%;
-  height:50%;
+  padding: 30px;
   margin:4% 22%;
-  float:left;
+  overflow: auto;
 }
 
 .text
@@ -20,6 +18,8 @@ body
   font-size: small;
   color:rgb(255, 255, 255);
   line-height:5px;
+  min-width:700px;
+  max-width: 1920px;
 }
 
 a:link, a:visited
@@ -31,6 +31,8 @@ cursor
 {
   font-size: 14px;
 }
+
+
 
 /*  
   margin-left: 600px;
