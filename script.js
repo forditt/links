@@ -7,4 +7,4 @@ var cursor = true;
         document.getElementById('cursor').style.opacity = 1;
         cursor = true;
         }
-        }, speed)
+        }, speed);

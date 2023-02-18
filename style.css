@@ -1,41 +1,42 @@
-body
-{
-  background-color:rgb(0, 0, 0)
+body{
+  background-color:rgb(0, 0, 0);
+  overflow-x:hidden;
+  overflow-y:hidden;
 }
 
-.box
-{
-  border: 1px dashed rgb(255, 255, 255);
-  padding: 30px;
-  margin:4% 22%;
-  overflow: auto;
-}
+.text-box{
+  border: 1px solid  rgb(255, 255, 255);
+  padding: 17px;
+  margin: auto;
+  margin-top: 70px; 
 
-.text
-{
   font-family: consolas; 
-  text-align: left;
   font-size: small;
   color:rgb(255, 255, 255);
   line-height:5px;
-  min-width:700px;
-  max-width: 1920px;
+  
+  min-width: 400px;
+  max-width: 700px;
 }
 
-a:link, a:visited
-{
+.buttons-1{
+  position: absolute;
+  margin-left: 650px;
+  margin-top: -4px; 
+  min-width: 400px;
+  max-width: 700px;
+}
+
+a:link, a:visited{
   color: rgb(0, 55, 218);
 }
 
-cursor
-{
+cursor{
   font-size: 14px;
 }
 
-
-
-/*  
-  margin-left: 600px;
-  margin-top: 120px; 
-  text-indent: 40%;
-*/
+@media screen and (max-width: 750px) {
+  .buttons-1 {
+      display:none;
+  }
+}
