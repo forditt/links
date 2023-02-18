@@ -35,8 +35,13 @@ cursor{
   font-size: 14px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px){
   .buttons-1 {
       display:none;
   }
+  .text-box {
+    border: 0px;
+    padding: 0px;
+    margin-top: auto;
+}
 }
