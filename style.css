@@ -4,17 +4,44 @@ body{
   overflow-y:hidden;
 }
 
-.text{
-  text-align: center;
+.text-box{
+  border: 1px solid  rgb(255, 255, 255);
+  padding: 17px;
   margin: auto;
-  padding: 10px;
-  padding-top: 165px;
+  margin-top: 5%; 
 
   font-family: consolas; 
-  font-size: 85%;
+  font-size: small;
   color:rgb(255, 255, 255);
   line-height:5px;
   
   min-width: 400px;
   max-width: 700px;
+}
+
+.buttons-1{
+  position: absolute;
+  margin-left: 650px;
+  margin-top: -4px; 
+  min-width: 400px;
+  max-width: 700px;
+}
+
+a:link, a:visited{
+  color: rgb(0, 55, 218);
+}
+
+cursor{
+  font-size: 14px;
+}
+
+@media screen and (max-width: 750px){
+  .buttons-1 {
+      display:none;
+  }
+  .text-box {
+    border: 0px;
+    padding: 0px;
+    margin-top: auto;
+}
 }
